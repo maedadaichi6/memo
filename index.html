@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>メモ帳アプリ</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>メモ帳アプリ</h1>
+    
+    <input type="text" id="filename" placeholder="ファイル名を入力">
+    <textarea id="memo" placeholder="ここにメモを書いてください..."></textarea>
+    
+    <div class="buttons">
+      <button id="save">保存</button>
+      <button id="clear">入力欄クリア</button>
+    </div>
+
+    <h2>保存済みメモ一覧</h2>
+    <ul id="fileList"></ul>
+
+    <p class="status"></p>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+  </div>
+</body>
+</html>
